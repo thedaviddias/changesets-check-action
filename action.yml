@@ -1,0 +1,8 @@
+name: Changesets Check Action
+description: A GitHub action to comment on PRs with whether a PR has a changeset or not and link to documentation explaining to contributors how to create a changeset.
+runs:
+  using: "node12"
+  main: "dist/index.js"
+branding:
+  icon: "package"
+  color: "blue"
